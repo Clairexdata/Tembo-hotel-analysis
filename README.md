@@ -1,51 +1,33 @@
-🏨 Tembo Hotel Data Analysis
+# Tembo Hotel - Booking and Revenue Analysis
 
-📌 Project Overview
+An end-to-end hotel booking analysis to help management track revenue, cancellations, and customer preferences.
 
-This project analyzes hotel data for Tembo Hotel to explore booking patterns, revenue, customer information, and other factors that can support data-driven decision-making.
+**Tools:** SQL (Cleaning & Analysis) | Power BI (Dashboard)
 
-The project covers the complete data analysis workflow, from working with the original dataset to data cleaning, SQL analysis, and visualization in Power BI.
+**KPIs:**
+- **Total Revenue:** 8M
+- **Total Bookings:** 285
+- **Avg Guest Rating:** 3.02
+- **Success Rate:** 88.7% Checked-Out (253/285)
 
-🎯 Objectives
+### Key Insights From Dashboard
 
-- Clean and prepare the hotel dataset
-- Analyze the data using SQL
-- Identify important patterns and trends
-- Create visualizations and a dashboard in Power BI
-- Present insights in a clear and understandable way
+1.  **Strong Completion Rate:** 88.7% of guests checked out successfully, only 8% cancelled - healthy operation.
+2.  **Payment:** M-Pesa is top with 74 bookings (25.9%), but all 4 methods are almost equal (69-74 each) - need to maintain all.
+3.  **Growth:** Huge jump in 2024 vs 2023 - business is scaling fast.
+4.  **Cancellation:** 23 cancellations + No-shows to investigate - mostly from Bank Transfer and Card.
 
-🛠️ Tools Used
+### Project Workflow
+- Cleaned `tembo_hotel_dirty.csv` to `tembo_hotel_clean.csv` using SQL
+- Analyzed revenue, cancellation rate, yearly trends in `tembo_hotel_script.sql`
+- Built interactive Power BI dashboard with Room Type, Booking Status & Payment Method slicers
 
-- SQL – Data querying and analysis
-- DBeaver – Database management and SQL development
-- Power BI – Data visualization and dashboard creation
-- CSV – Data storage and dataset format
-- Git & GitHub – Version control and project sharing
+### Files
+- `tembo_hotel_clean.csv`
+-  `tembo_hotel_dirty.csv`
+- `tembo_hotel_script.sql`
+- `tembo_hotel_cashboard.pbix`
+  
 
-📂 Project Files
-
-File| Description
-"Tembo Hotel Dirty CSV"| Original dataset before cleaning
-"Tembo Hotel Clean CSV"| Cleaned dataset used for analysis
-"Tembo Hotel SQL Script"| SQL queries used for data analysis
-"Tembo Hotel Power BI Dashboard"| Interactive Power BI dashboard
-
-🔄 Project Workflow
-
-Raw Data → Data Cleaning → SQL Analysis → Power BI Visualization → Insights
-
-📊 Dashboard
-
-The Power BI dashboard presents visual insights from the analyzed hotel data.
-
-🔎 Key Insights
-
-To be added based on the findings from the analysis.
-
-📚 Conclusion
-
-This project demonstrates the use of data cleaning, SQL, data visualization, and business intelligence tools to transform raw hotel data into useful insights.
-
-👩🏾‍💻 Author
-
-Clairexdata
+---
+**Author:** Clairexdata
